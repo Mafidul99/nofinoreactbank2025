@@ -86,6 +86,9 @@
     display: none;
 
   }
+  .outlineBtn{
+    display: none;
+  }
     
   .mobileToggle{
     display: inline;
@@ -141,3 +144,6 @@
   align-items: center;
 }
 }
+
+
+

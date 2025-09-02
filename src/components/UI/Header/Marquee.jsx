@@ -10,4 +10,4 @@ const Marquee = ({ children }) => {
       );
     };
 
-export default Marquee
+export default Marquee;

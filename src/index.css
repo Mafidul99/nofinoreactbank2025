@@ -482,7 +482,6 @@ body{
 
 
 
-
 @keyframes slide-fade-up {
   0% {
     transform: translateY(50px);
@@ -603,7 +602,7 @@ body{
   color: #fff; 
   border-radius: 50%;
   position: fixed;
-  bottom: 110px;
+  bottom: 75px;
   right: 30px;
   z-index: 999;
   display: flex;

@@ -29,10 +29,10 @@ export const ConutSection = () => {
     return (
         <div className="flex items-center justify-center relative ">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4">
-                <div className="flex w-full items-center justify-center gap-3 relative counter-content-container dark:bg-gray-600 rounded-md">
+                <div className="flex w-full items-center justify-center gap-3 relative counter-content-container dark:bg-gradient-to-tr dark:from-gray-700 dark:to-gray-500 rounded-md">
                 {counterLinks.map((countslink, index) => {
                     return <div className="w-full items-center justify-center sm:grid-cols-1">
-                        <div className="mb-[30px] items-cente text-center border-r-2 border-r-[#a4c2f3] border-solid ">
+                        <div className="mb-[30px] items-cente text-center border-r-2 dark:border-r-[1px] dark:border-r-[#D6D6D6] border-r-[#a4c2f3] dark:border-dashed border-solid ">
                             <div className="counter-content ">
                                 <div className="relative">
                                     <div className="inline-block ">                                        

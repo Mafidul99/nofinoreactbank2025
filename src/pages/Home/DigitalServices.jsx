@@ -52,7 +52,7 @@ export const DigitalServices = () => {
                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4">
                         <div className="w-[100%] grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                             {cardLinks.map((cardlink, index) => {
-                                return <div className="w-full items-center ">
+                                return <div className="w-full items-center">
                                 <div className="choose-us-single-feature ">
                                     <div className="choose-us-feature-wrapper white dark:bg-gray-700">                                        
                                          <div className="choose-us-content">

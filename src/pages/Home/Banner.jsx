@@ -6,17 +6,14 @@ export const Banner = () => {
 
     return (
         <>
-            <div className="bg-gradient-to-tr from-[#184b00] to-[#369133da] shadow-xl w-ful h-[30px] flex text-white">
+            <div className="bg-gradient-to-tr from-[#184b00] to-[#369133da] dark:bg-gradient-to-tr dark:from-gray-800 dark:to-gray-600 shadow-xl w-ful h-[30px] flex text-[#fff]">
                 <div className="max-w-[1200px] w-[100%] flex mx-auto items-center">
                     <div className="flex w-full pt-[5px] h-[30px] opacity-[1] font-roboto text-[14px] pl-2 pr-2">
                         <Marquee>
                             <div>Nofino Rural Fiaince Private Limited - </div>
-                            <div >CIN - U64990AS2023PTC025316  - </div>
-                            <div >Mandia Mandia Barpeta Assam - 781308..</div>
+                            <div>CIN - U64990AS2023PTC025316  - </div>
+                            <div>Mandia Mandia Barpeta Assam - 781308..</div>
                         </Marquee>
-                        {/* <marquee className=''>
-                            Mandia Goan Barpeta Assam 781308
-                        </marquee> */}
                     </div>
                 </div>
             </div>

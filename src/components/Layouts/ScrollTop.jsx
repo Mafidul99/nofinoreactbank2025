@@ -32,7 +32,7 @@ export const ScrollTop = () => {
         <>
         <div className="flex items-center text-center justify-items-center ">
             {showButton && (
-            <div className="w-full transition duration-300 bg-green-600 dark:bg-gray-700 shadow-xl top-btn hover:scale-110" onClick={scrollToTop}>
+            <div className="w-full transition duration-300 bg-green-600 dark:bg-gray-500 dark:border-[1px] dark:border-[#D6D6D6] shadow-xl top-btn hover:scale-110" onClick={scrollToTop}>
                 <FaArrowUp className="items-center justify-center text-center top-btn--icon justify-items-center"/>
                 <div className="absolute flex mt-[90px] font-[500] text-[13px] text-[#a5a5a5b4] items-center text-center leading-3
                  justify-items-center font-roboto dark:text-[#D6D6D6]">

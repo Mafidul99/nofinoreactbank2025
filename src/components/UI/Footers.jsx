@@ -112,7 +112,7 @@ const Footers = () => {
       {/* <FooterMenu/> */}
 
 
-      <footer className="bg-gray-100 dark:bg-gray-900 footer font-roboto mt-4">
+      <footer className="bg-gray-100 dark:bg-gray-700 footer font-roboto mt-4">
         <div className="mx-auto max-w-[1200px] px-4 pt-5 sm:px-6 lg:px-8 lg:pt-24">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
@@ -253,12 +253,12 @@ const Footers = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-gray-300 pt-6 w-full px-5 pb-6 bg-gray-500  dark:bg-gray-900">
+        <div className="mt-12 dark:border-[#d6d6d6cb] border-t py-2 w-full px-5 bg-gray-600  dark:bg-gray-700">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <div className="text-sm text-[#D6D6D6] font-roboto text-[16px]">
             {footerLink.map((footerLinks, index) => {
               return (
-                  <Link className="inline-block pr-2 transition hover:text-white" to={footerLinks.url} >
+                  <Link className="inline-block pr-3 transition hover:text-white" to={footerLinks.url} >
                     {footerLinks.name}
                   </Link>
                 );

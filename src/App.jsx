@@ -20,6 +20,8 @@ import RefundPolicy from './pages/Policy/RefundPolicy'
 import Faq from './pages/Others/Faq'
 import Support from './pages/Others/Support'
 import { ThemeProvider } from './context/ThemeContext'
+import RdCalculator from './Calculators/RdCalculator'
+import FdCalculator from './Calculators/FdCalculator'
 
 const router = createBrowserRouter([
   {
@@ -89,6 +91,16 @@ const router = createBrowserRouter([
       {
         path: "/support",
         element: <Support/>,
+
+      },
+      {
+        path: "/rd-calculator",
+        element: <RdCalculator/>,
+
+      },
+      {
+        path: "/fd-calculator",
+        element: <FdCalculator/>,
 
       },
       {

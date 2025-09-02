@@ -70,7 +70,7 @@ const GetSupport = () => {
 
                 <div className='flex items-center justify-center w-full  mt-[40px]'>
                     <div className='flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4'>
-                        <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+                        <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                             {supportLinks.map((supportLink, index) => {
                                 return (
                                     <div class="max-w-sm p-6 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700">
