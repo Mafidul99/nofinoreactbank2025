@@ -9,7 +9,7 @@ import AboutUs from './pages/About/AboutUs'
 import ContactUs from './pages/Contact/ContactUs'
 import Accounts from './pages/Accounts/Accounts'
 import DigitalSolutions from './pages/DigitalSolutions/DigitalSolutions'
-import GoldLoanService from './pages/GoldLoanService/GoldLoanService'
+import GoldLoanService from './pages/FooterPageLink/GoldLoanService'
 import CashMangProd from './pages/CashMangProd/CashMangProd'
 import TermsConditions from './pages/Policy/TermsConditions'
 import PrivacyPolicy from './pages/Policy/PrivacyPolicy'
@@ -36,6 +36,8 @@ import AnkletsToeRings from './pages/GoldLoanPages/AnkletsToeRings'
 import KhazanaJewellery from './pages/GoldLoanPages/KhazanaJewellery'
 import BanglesDesigns from './pages/GoldLoanPages/BanglesDesigns'
 import RingDesigns from './pages/GoldLoanPages/RingDesigns'
+import LoanService from './pages/FooterPageLink/LoanService'
+import InvesmentsPlan from './pages/FooterPageLink/InvesmentsPlan'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +64,14 @@ const router = createBrowserRouter([
       {
         path: "/gold-loan-services",
         element: <GoldLoanService/>,
+      },
+      {
+        path: "/loan-Service",
+        element: <LoanService/>,
+      },
+      {
+        path: "/invesments-plan",
+        element: <InvesmentsPlan/>,
       },
       {
         path: "/cash-managment-product",
