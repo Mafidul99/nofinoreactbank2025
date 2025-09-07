@@ -11,6 +11,7 @@ module.exports = {
           animation: {
             marquee: 'marquee 50s linear infinite',
             fadeInDown: 'fadeInDown 2s ease-out forwards',
+            spin: 'spin 1s linear infinite',
           },
           keyframes: {
             marquee: {
@@ -21,6 +22,10 @@ module.exports = {
               '0%': { opacity: '0', transform: 'translateY(-20px)' },
               '100%': { opacity: '1', transform: 'translateY(0)' },
             },
+            spin: {
+            from: { transform: 'rotate(0deg)' },
+            to: { transform: 'rotate(360deg)' },
+          },
           }
         },
         variants: {

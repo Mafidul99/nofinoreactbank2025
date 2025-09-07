@@ -25,17 +25,17 @@ export const Banner = () => {
                             <div className="carousel-caption ">
                                 <div className="w-full items-center">
                                     <div className="flex flex-wrap justify-between items-center max-w-[1200px] ">
-                                        <div className="font-roboto">
+                                        <div className="font-roboto items-center justify-center">
                                             <div className="animate-fadeInDown delay-[6000]">
-                                                <p className="text-[30px] pt-5 pb-3 text-[#ffffffb4]">
+                                                <p className="lg:text-[30px] xl:text-[30px] text-[20px] pt-4 pb-3 text-[#ffffffb4] md:text-[23px]">
                                                     Simple & Secure Payment Process </p>
                                             </div>
                                             <div className="animate-fadeInDown">
-                                                <h2 className="text-[60px] font-bold capitalize text-gray-950 pb-3 ">
+                                                <h2 className="lg:text-[60px] xl:text-[60px] text-[36px] font-bold capitalize text-gray-950 pb-3 md:text-[45px] ">
                                                     Connecting Your Loan Needs </h2>
                                             </div>
-                                            <div className="flex font-semibold list-none text-[16px]">                                                
-                                                <Link to="/apply-from" className="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-green-950 py-1 pl-6 pr-14 font-medium text-neutral-50">
+                                            <div className="flex font-semibold list-none text-[16px] sliderBtn">                                                
+                                                <Link to="/apply-from" className="group relative inline-flex h-[calc(48px+8px)]  items-center justify-center rounded-full bg-green-950 py-1 pl-6 pr-14 font-medium text-neutral-50">
                                                     <span className="z-10 pr-2 text-white">Apply Loan</span>
                                                     <div className="absolute right-1 inline-flex h-12 w-12 items-center hover:text-white justify-end rounded-full bg-green-700 transition-[width] group-hover:w-[calc(100%-8px)]">
                                                         <div className="mr-3.5 flex items-center justify-center">
@@ -56,16 +56,16 @@ export const Banner = () => {
                             <div className="carousel-caption ">
                                 <div className="w-full items-center">
                                     <div className="max-w-[1200px]">
-                                        <div className="font-roboto">
+                                        <div className="font-roboto items-center justify-center">
                                             <div className="animate-fadeInDown delay-[200]">
-                                                <p className="text-[30px] pt-5 pb-3 text-[#ffffffb4]">
+                                                <p className="lg:text-[30px] xl:text-[30px] text-[20px] pt-4 pb-3 text-[#ffffffb4] md:text-[23px]">
                                                     Simple & Secure Payment Process </p>
                                             </div>
                                             <div className="animate-fadeInDown">
-                                                <h2 className="text-[60px] font-bold capitalize text-gray-950 pb-3 ">
+                                                <h2 className="lg:text-[60px] xl:text-[60px] text-[36px] font-bold capitalize text-gray-950 pb-3 md:text-[45px] ">
                                                     Connecting Gold Loan Needs </h2>
                                             </div>
-                                            <div className="flex font-semibold list-none text-[16px]">
+                                            <div className="flex font-semibold list-none text-[16px] sliderBtn">
                                                 <Link to="/apply-from" className="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-green-950 py-1 pl-6 pr-14 font-medium text-neutral-50">
                                                     <span className="z-10 pr-2 text-white">Apply Loan</span>
                                                     <div className="absolute right-1 inline-flex h-12 w-12 items-center hover:text-white justify-end rounded-full bg-green-700 transition-[width] group-hover:w-[calc(100%-8px)]">

@@ -6,8 +6,8 @@
             "common":"Director & Co-Founder (CMD)"
         },
         "images":{
-            "png": "/images/team/team-11.png",
-            "svg": "/images/team/team-11.svg",
+            "png": "/assets/images/team/team-11.png",
+            "svg": "/assets/images/team/team-11.svg",
             "alt": "team-11"
         }
     },
@@ -18,8 +18,8 @@
             "common":"Director & Co-Founder (CEO)"
         },
         "images":{
-            "png": "/images/team/team-1-2.png",
-            "svg": "/images/team/team-1-2.svg",
+            "png": "/assets/images/team/team-1-2.png",
+            "svg": "/assets/images/team/team-1-2.svg",
             "alt": "team-2"
         }
     },
@@ -30,8 +30,8 @@
             "common":"Company Secretary (CS/CA)"
         },
         "images":{
-            "png": "/images/team/tm-10.jpg",
-            "svg": "/images/team/tm-10.svg",
+            "png": "/assets/images/team/tm-10.jpg",
+            "svg": "/assets/images/team/tm-10.svg",
             "alt": "team-3"
         }
     },
@@ -42,8 +42,8 @@
             "common":"Co-Founder (Founder)"
         },
         "images":{
-            "png": "/images/team/tm-2.jpg",
-            "svg": "/images/team/tm-2.svg",
+            "png": "/assets/images/team/tm-2.jpg",
+            "svg": "/assets/images/team/tm-2.svg",
             "alt": "team-11"
         }
     },
@@ -54,8 +54,8 @@
             "common":"Co-Founder (Investor)"
         },
         "images":{
-            "png": "/images/team/tm-9.jpg",
-            "svg": "/images/team/tm-9.svg",
+            "png": "/assets/images/team/tm-9.jpg",
+            "svg": "/assets/images/team/tm-9.svg",
             "alt": "team-5"
         }
     },
@@ -66,8 +66,8 @@
             "common":"Co-Founder (Investor)"
         },
         "images":{
-            "png": "/images/team/tm-8.jpg",
-            "svg": "/images/team/tm-8.svg",
+            "png": "/assets/images/team/tm-8.jpg",
+            "svg": "/assets/images/team/tm-8.svg",
             "alt": "team-6"
         }
     }

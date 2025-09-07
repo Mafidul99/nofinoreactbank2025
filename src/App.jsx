@@ -8,11 +8,9 @@ import ErrorPage from './pages/ErrorPage'
 import AboutUs from './pages/About/AboutUs'
 import ContactUs from './pages/Contact/ContactUs'
 import Accounts from './pages/Accounts/Accounts'
-import LoanService from './pages/LoanService/LoanService'
 import DigitalSolutions from './pages/DigitalSolutions/DigitalSolutions'
 import GoldLoanService from './pages/GoldLoanService/GoldLoanService'
 import CashMangProd from './pages/CashMangProd/CashMangProd'
-import InvesmentsPlan from './pages/InvesmentsPlan/InvesmentsPlan'
 import TermsConditions from './pages/Policy/TermsConditions'
 import PrivacyPolicy from './pages/Policy/PrivacyPolicy'
 import Disclaimer from './pages/Policy/Disclaimer'
@@ -22,6 +20,22 @@ import Support from './pages/Others/Support'
 import { ThemeProvider } from './context/ThemeContext'
 import RdCalculator from './Calculators/RdCalculator'
 import FdCalculator from './Calculators/FdCalculator'
+import PersonalLoan from './pages/LoanServices/PersonalLoan'
+import BusinessLoan from './pages/LoanServices/BusinessLoan'
+import GroupLoan from './pages/LoanServices/GroupLoan'
+import ProductLoan from './pages/LoanServices/ProductLoan'
+import LoanAgainstVehicle from './pages/LoanServices/LoanAgainstVehicle'
+import FdInvesment from './pages/InvesmentsPlan/FdInvesment'
+import RdInvesment from './pages/InvesmentsPlan/RdInvesment'
+import SipInvesment from './pages/InvesmentsPlan/SipInvesment'
+import BraceletsBangles from './pages/GoldLoanPages/BraceletsBangles'
+import RingsEarRings from './pages/GoldLoanPages/RingsEarRings'
+import Necklaces from './pages/GoldLoanPages/Necklaces'
+import Pendants from './pages/GoldLoanPages/Pendants'
+import AnkletsToeRings from './pages/GoldLoanPages/AnkletsToeRings'
+import KhazanaJewellery from './pages/GoldLoanPages/KhazanaJewellery'
+import BanglesDesigns from './pages/GoldLoanPages/BanglesDesigns'
+import RingDesigns from './pages/GoldLoanPages/RingDesigns'
 
 const router = createBrowserRouter([
   {
@@ -42,10 +56,6 @@ const router = createBrowserRouter([
         element: <Accounts/>,
       },
       {
-        path: "/loan-Service",
-        element: <LoanService/>,
-      },
-      {
         path: "/digital-solutions",
         element: <DigitalSolutions/>,
       },
@@ -56,11 +66,6 @@ const router = createBrowserRouter([
       {
         path: "/cash-managment-product",
         element: <CashMangProd/>,
-
-      },
-      {
-        path: "/invesments-plan",
-        element: <InvesmentsPlan/>,
 
       },
       {
@@ -101,6 +106,86 @@ const router = createBrowserRouter([
       {
         path: "/fd-calculator",
         element: <FdCalculator/>,
+
+      },
+      {
+        path: "/personal-loan",
+        element: <PersonalLoan/>,
+
+      },
+      {
+        path: "/business-loan",
+        element: <BusinessLoan/>,
+
+      },
+      {
+        path: "/group-loan",
+        element: <GroupLoan/>,
+
+      },
+      {
+        path: "/product-loan",
+        element: <ProductLoan/>,
+
+      },
+      {
+        path: "/loan-against-vehicle",
+        element: <LoanAgainstVehicle/>,
+
+      },
+      {
+        path: "/fd-invesment",
+        element: <FdInvesment/>,
+
+      },
+      {
+        path: "/rd-invesment",
+        element: <RdInvesment/>,
+
+      },
+      {
+        path: "/sip-invesment",
+        element: <SipInvesment/>,
+
+      },
+      {
+        path: "/bracelets-bangles",
+        element: <BraceletsBangles/>,
+
+      },
+      {
+        path: "/rings-ear-rings",
+        element: <RingsEarRings/>,
+
+      },
+      {
+        path: "/necklaces",
+        element: <Necklaces/>,
+
+      },
+      {
+        path: "/pendants",
+        element: <Pendants/>,
+
+      },
+      {
+        path: "/anklets-and-ring",
+        element: <AnkletsToeRings/>,
+
+      },
+      {
+        path: "/khazana-jewellery",
+        element: <KhazanaJewellery/>,
+
+      },
+      {
+        path: "/bangle-designs",
+        element: <BanglesDesigns/>,
+
+      },
+      {
+        path: "/ring-designs",
+        element: <RingDesigns/>,
 
       },
       {

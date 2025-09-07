@@ -72,7 +72,6 @@ const Header = () => {
                                 <img src="assets/images/logo/logo-dark1.png" className='w-[100%]' alt="MainLogo" />
                             </Link>
                         </div>
-
                         <div className='flex gap-3 ml-auto'>
                             <div className="flex ml-auto">
                                 <Link to="#_" className="outlineBtn relative inline-flex items-center px-10 py-2 overflow-hidden text-lg font-medium dark:border-gray-700 text-gray-600 border-2 border-green-600 rounded-full hover:text-white group hover:bg-gray-50">
@@ -91,7 +90,6 @@ const Header = () => {
                                 </Link>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -117,16 +115,13 @@ const Header = () => {
                                 </ul>
                             </div>
                         </div>
-
                         <div className={showMenu ? "mobile-menu" : "menu-web"}>
                             <div className="w-full lg:hidden xl:hidden mobile-menu" id="navbar-default">                                
                                 <MobileHeader/>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
                 </nav>
-
             </header>
         </>
     )

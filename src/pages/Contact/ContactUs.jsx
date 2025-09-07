@@ -1,9 +1,16 @@
 import React from 'react'
+import GetSupportCont from './GetSupportCont';
+import ContactFormSub from './ContactFormSub';
+
+
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <>
+    <GetSupportCont/>
+      <ContactFormSub/>
+    </>
   )
 }
 
-export default ContactUs
+export default ContactUs;

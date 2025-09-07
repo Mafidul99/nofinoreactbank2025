@@ -73,7 +73,7 @@ const GetSupport = () => {
                         <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                             {supportLinks.map((supportLink, index) => {
                                 return (
-                                    <div class="max-w-sm p-6 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700">
+                                    <div class="max-w-sm p-6 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700" key={index}>
                                         <div className="flex w-full items-center justify-center justify-items-center py-3 text-center">
                                             <span className='text-[50px] w-full text-green-500 items-center text-center justify-items-center'>
                                                 {supportLink.icon}

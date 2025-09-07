@@ -625,6 +625,20 @@ body{
   }
 }
 
+.alltuchtopdown  {
+  animation: alltuchtopdown 1.2s infinite alternate-reverse;
+  
+}
+
+@keyframes alltuchtopdown  {
+  0%{
+    transForm: translateY(-0.5rem);
+  }
+  100%{
+    transForm: translateY(1rem);
+  }
+}
+
 
 
 
