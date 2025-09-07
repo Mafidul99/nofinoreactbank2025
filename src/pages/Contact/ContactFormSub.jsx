@@ -32,7 +32,7 @@ const form = useRef();
       <div className="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
         <div className="max-w-[1200px] w-full mx-auto sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="grid grid_row grid-cols-1 md:grid-cols-2">
               <div className="p-6 mr-2 bg-[#fff] dark:bg-gray-800 shadow-md sm:rounded-lg">
                 <GoogleMapIndex/>
               </div>

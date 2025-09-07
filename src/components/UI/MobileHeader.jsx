@@ -20,49 +20,77 @@ export const MobileHeader = () => {
 
     const LoanSerLink = [
         {
-            name: "Gold Loan",
-            url: "/"
+            name: "Personal Loan",
+            url: "/personal-loan"
 
         },
         {
-            name: "Personal Loan",
-            url: "/"
+            name: "Business Loan",
+            url: "/business-loan"
         },
         {
-            name: "Business Loan",
-            url: "/"
+            name: "Group Loan",
+            url: "/group-loan"
+        },
+        {
+            name: "Product Loan",
+            url: "/product-loan"
+        },
+        {
+            name: "Loan Against Vehicle",
+            url: "/loan-against-vehicle"
         }
     ]
 
     const GoldLoanLink = [
         {
-            name: "Bengle",
-            url: "/"
+            name: "Bracelets & Bangles",
+            url: "/bracelets-bangles"
 
         },
         {
-            name: "Necklce",
-            url: "/"
+            name: "Rings & Ear Rings",
+            url: "/rings-ear-rings"
         },
         {
-            name: "Ring",
-            url: "/"
+            name: "Gold Necklaces",
+            url: "/necklaces"
+        },
+        {
+            name: "Pendants",
+            url: "/pendants"
+        },
+        {
+            name: "Anklets & Toe Rings",
+            url: "/anklets-and-ring"
+        },
+        {
+            name: "Khazana Jewellery",
+            url: "/khazana-jewellery"
+        },
+        {
+            name: "Bangles Designs",
+            url: "/bangle-designs"
+        },
+        {
+            name: "Ring Designs",
+            url: "/ring-designs"
         }
     ]
 
     const InvesLink = [
         {
-            name: "Personal Invesments",
-            url: "/"
+            name: "FD Invesment",
+            url: "/fd-invesment"
 
         },
         {
-            name: "Personal Invesments",
-            url: "/"
+            name: "RD Invesment",
+            url: "/rd-invesment"
         },
         {
-            name: "Personal Invesments",
-            url: "/"
+            name: "SIP Invesment",
+            url: "/sip-invesment"
         }
     ]
 
