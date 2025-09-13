@@ -38,6 +38,11 @@ import BanglesDesigns from './pages/GoldLoanPages/BanglesDesigns'
 import RingDesigns from './pages/GoldLoanPages/RingDesigns'
 import LoanService from './pages/FooterPageLink/LoanService'
 import InvesmentsPlan from './pages/FooterPageLink/InvesmentsPlan'
+import PlApplyFrom from './pages/LoanServices/ApplyFrom/PL/PlApplyFrom'
+import BlApplyFrom from './pages/LoanServices/ApplyFrom/BL/BlApplyFrom'
+import ProApplyFrom from './pages/LoanServices/ApplyFrom/ProL/ProApplyFrom'
+import GropApplyFrom from './pages/LoanServices/ApplyFrom/GL/GropApplyFrom'
+import VehiApplyFrom from './pages/LoanServices/ApplyFrom/LAVehi/VehiApplyFrom'
 
 const router = createBrowserRouter([
   {
@@ -201,6 +206,26 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs/>,
+      },
+      {
+        path: "/pl-apply-from",
+        element: <PlApplyFrom/>,
+      },
+      {
+        path: "/bl-apply-from",
+        element: <BlApplyFrom/>,
+      },
+      {
+        path: "/prod-apply-from",
+        element: <ProApplyFrom/>,
+      },
+      {
+        path: "/grop-apply-from",
+        element: <GropApplyFrom/>,
+      },
+      {
+        path: "/vehi-apply-from",
+        element: <VehiApplyFrom/>,
       }
     ]
   }
