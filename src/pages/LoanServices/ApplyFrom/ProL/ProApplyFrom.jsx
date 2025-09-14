@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SubmitFrom from '../SubmitFromFile/SubmitFrom';
 
 const ProApplyFrom = () => {
-    const [notification, setNotification] = useState('');
+    
     return (
         <>
             <section>
@@ -22,15 +22,9 @@ const ProApplyFrom = () => {
                 <div className="items-center w-full relative">
                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4">
                         <div className="grid w-full grid-cols-1 gap-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
-                            {
-                                notification && (
-                                    <div className="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
-                                        <span className="font-[16px]">{notification}</span>
-                                    </div>
-                                )
-                            }
+                            
                             {/* Form Submit Dialog */}
-                            <SubmitFrom setNotification={setNotification} />
+                            <SubmitFrom />
                         </div>
                     </div>
                 </div>

@@ -232,10 +232,12 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
+  
   return (    
-    <ThemeProvider>
+    <ThemeProvider>     
       <RouterProvider router={router}></RouterProvider>
     </ThemeProvider>
+    
   )
 }
 

@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
-const SubmitFrom = ({ setNotification }) => {
+const SubmitFrom = () => {
     const [currentStep, setCurrentStep] = useState(1);
 
     const nextStep = () => {
@@ -14,11 +15,11 @@ const SubmitFrom = ({ setNotification }) => {
 
 
     const formData = useRef();
+
     const formSubmit = (e) => {
         e.preventDefault();
 
-        const serviceID = 'service_qbx1dqs';
-        const templateID = 'template_nqnt1ed';
+   
         const templateParams = {
             loanAmount: e.target['loan-amount'].value,
             monthlyIncome: e.target['monthly-income'].value,
@@ -59,23 +60,18 @@ const SubmitFrom = ({ setNotification }) => {
             fileSignature: e.target['file-signature'].files[0],
 
         };
-        const options = {
-            publicKey: 'ctWlcd_EJZ66ACCLS',
-        };
+        
+        const myServiceId = process.env.REACT_APP_MY_SERVICE_ID;
+        const myTemplateId = process.env.REACT_APP_MY_TEMPLATE_ID;
+        const myPublicKey = { publicKey: process.env.REACT_APP_MY_PUBLIC_KEY };
 
-        emailjs.sendForm(serviceID, templateID, templateParams, formData.current, options).then(
+        emailjs.sendForm(myServiceId, myTemplateId, templateParams, formData.current, myPublicKey).then(
             () => {
-                setNotification("Your form has been submitted successfully!");
-                setTimeout(() => {
-                    setNotification("");
-                }, 3000);
+                toast.success("Form has been submitted successfully!");
                 formData.current.reset();
             }, (error) => {
                 console.log(error.text);
-                setNotification("An error occurred while submitting your form.");
-                setTimeout(() => {
-                    setNotification("");
-                }, 3000);
+                toast.error("An error occurred while submitting your form.");
             });
 
     }

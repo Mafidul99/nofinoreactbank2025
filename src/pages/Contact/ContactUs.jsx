@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import GetSupportCont from './GetSupportCont';
 import ContactFormSub from './ContactFormSub';
 
@@ -7,8 +7,8 @@ import ContactFormSub from './ContactFormSub';
 const ContactUs = () => {
   return (
     <>
-    <GetSupportCont/>
-      <ContactFormSub/>
+      <GetSupportCont />      
+      <ContactFormSub />
     </>
   )
 }
