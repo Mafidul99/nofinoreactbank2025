@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-require('dotenv').config();
 module.exports = {
   darkMode: 'class',
 

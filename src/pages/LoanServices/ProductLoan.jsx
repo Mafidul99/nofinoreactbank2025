@@ -64,7 +64,7 @@ const ProductLoan = () => {
                   </div>
                   <div className="flex items-center justify-center py-2 mb-3 mt-2 border-[1px] border-gray-400 p-2 w-44 rounded-md
                        bg-green-100 hover:bg-green-200 text-gray-600 font-roboto font-[600] text-[18px]">
-                    <Link to="/prod-apply-from" target="_blank" className='hover:text-gray-600'>
+                    <Link to="/prod-apply-from" className='hover:text-gray-600'>
                       <img src={IconApply} alt="Icon33" className='inline-block mr-2' /> Apply Now</Link>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 
 export function Loader(){
     return(
-        <div className="smal_loader"></div>
+        <div className="small_loader"></div>
         
     )
 }
