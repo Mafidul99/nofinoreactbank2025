@@ -83,7 +83,7 @@ const SubmitFrom = () => {
                     <div>
                         <div className="border-[1px] dark:border-[#D6D6D6] border-green-300 border-dashed rounded-md p-4">
                             {/* <h2 className="text-2xl font-bold mb-4">Loan Details</h2> */}
-                            <div className="grid grid-cols-2 gap-4 mb-3">
+                            <div className="grid grid-cols-2 gap-4 md:grid-cols-1 mb-3">
                                 <div className="flex flex-col">
                                     <label htmlFor="loan-amount" className="mb-2 items-center justify-center">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Loan Amount</span>
@@ -141,7 +141,7 @@ const SubmitFrom = () => {
                     <div>
                         <div className="border-[1px] dark:border-[#D6D6D6] border-green-300 border-dashed rounded-md p-4">
                             {/* <h2 className="text-2xl font-bold mb-4">Step 2: Address Details</h2> */}
-                            <div className="grid grid-cols-3 gap-4 mt-2">
+                            <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
                                 <div className="flex flex-col">
                                     <label htmlFor="user-Name" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Your Name</span>
@@ -158,7 +158,7 @@ const SubmitFrom = () => {
                                     <input type="text" id="fname" name="fname" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
                                         placeholder='Enter Father Name' required autoComplete="off" />
                                 </div>
-                                <div className="flex flex-col">
+                                <div className="flex flex-col lg:col-span-2 md:col-span-1">
                                     <label htmlFor="mname" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Mother Name</span>
                                         <span className='text-red-500 text-[18px]'> * </span>
@@ -167,7 +167,7 @@ const SubmitFrom = () => {
                                         placeholder='Enter Mother Name' required autoComplete="off" />
                                 </div>
                             </div>
-                            <div className="grid grid-cols-4 gap-4 mt-2 mb-4">
+                            <div className="grid grid-cols-4 gap-4 mt-2 lg:grid-cols-2 md:grid-cols-1 mb-4">
                                 <div className="flex flex-col">
                                     <label htmlFor="email" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Email Address</span>
@@ -274,7 +274,7 @@ const SubmitFrom = () => {
                                         <option value="phd">PhD</option>
                                     </select>
                                 </div>
-                                <div className="flex flex-col col-span-2">
+                                <div className="flex flex-col col-span-2 md:col-span-1">
                                     <label htmlFor="spouse-name" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Spose Name</span>
                                         <span className='text-red-500 text-[18px]'> * </span>
@@ -295,7 +295,7 @@ const SubmitFrom = () => {
                     <div>
                         <div className="border-[1px] dark:border-[#D6D6D6] border-green-300 border-dashed rounded-md p-4">
                             {/* <h2 className="text-2xl font-bold mb-4">Step 2: Address Details</h2> */}
-                            <div className="grid grid-cols-3 gap-4 mt-2">
+                            <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
                                 <div className="flex flex-col">
                                     <label htmlFor="account-number" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Account Number</span>
@@ -312,7 +312,7 @@ const SubmitFrom = () => {
                                     <input type="text" id="ifsc" name="ifsc" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
                                         placeholder="Enter IFSC Code" required autoComplete="off" />
                                 </div>
-                                <div className="flex flex-col">
+                                <div className="flex flex-col lg:col-span-2 md:col-span-1">
                                     <label htmlFor="branch" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Branch Name</span>
                                         <span className='text-red-500 text-[18px]'> * </span>
@@ -321,8 +321,8 @@ const SubmitFrom = () => {
                                         placeholder="Enter Branch Name" required autoComplete="off" />
                                 </div>
                             </div>
-                            <div className="grid grid-cols-4 gap-4 mt-4 mb-4">
-                                <div className="flex flex-col col-span-2">
+                            <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-4 mb-4">
+                                <div className="flex flex-col col-span-2 md:col-span-1">
                                     <label htmlFor="address" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>House No/Name</span>
                                         <span className='text-red-500 text-[18px]'> * </span>
@@ -330,7 +330,7 @@ const SubmitFrom = () => {
                                     <input type="text" id="address" name="address" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
                                         placeholder="Enter Address" required autoComplete="off" />
                                 </div>
-                                <div className="flex flex-col col-span-2">
+                                <div className="flex flex-col col-span-2 md:col-span-1">
                                     <label htmlFor="street" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Street</span>
                                         <span className='text-red-500 text-[18px]'> * </span>
@@ -389,7 +389,7 @@ const SubmitFrom = () => {
                     <div>
                         <div className="border-[1px] dark:border-[#D6D6D6] border-green-300 border-dashed rounded-md p-4">
                             {/* <h2 className="text-2xl font-bold mb-4">Step 3: Confirmation</h2> */}
-                            <div className="grid grid-cols-3 gap-4 mt-2">
+                            <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
                                 <div className="flex flex-col">
                                     <label htmlFor="file-pan" className="mb-2">
                                         <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Pan Card</span>
@@ -479,10 +479,10 @@ const SubmitFrom = () => {
             </h3>
             <p className='text-red-500 text-center text-[15px] font-roboto font-[400] mb-3'>(Star Mark is Mandatory)</p>
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4 mb-6">
-                <div className={`w-1/5 text-center ${currentStep >= 1 ? 'text-[15px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Loan Details</div>
-                <div className={`w-1/5 text-center ${currentStep >= 2 ? 'text-[15px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Personal Details</div>
-                <div className={`w-1/5 text-center ${currentStep >= 3 ? 'text-[15px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Account/ Address Details</div>
-                <div className={`w-1/5 text-center ${currentStep >= 4 ? 'text-[15px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Documents Upload</div>
+                <div className={`w-1/5 text-center ${currentStep >= 1 ? 'text-[15px] lg:text-[12px] md:text-[10px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Loan Details</div>
+                <div className={`w-1/5 text-center ${currentStep >= 2 ? 'text-[15px] lg:text-[12px] md:text-[10px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Personal Details</div>
+                <div className={`w-1/5 text-center ${currentStep >= 3 ? 'text-[15px] lg:text-[12px] md:text-[10px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Account/ Address Details</div>
+                <div className={`w-1/5 text-center ${currentStep >= 4 ? 'text-[15px] lg:text-[12px] md:text-[10px] font-roboto inline-block py-1 px-1 rounded-full text-green-600 bg-green-200' : 'text-gray-400'}`}>Documents Upload</div>
 
             </div>
             {/* <hr className='my-3 border-green-300 dark:border-[#f8f8f8]' /> */}

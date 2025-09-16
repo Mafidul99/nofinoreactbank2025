@@ -74,7 +74,7 @@ const Header = () => {
                                 </Link>
                             </div>
                         <div className='flex col-span-2 gap-3 ml-auto'>
-                            <div className="flex ml-auto xs:hidden">
+                            <div className="flex ml-auto sm:hidden xs:hidden">
                                 <Link to="#_" className="relative inline-flex items-center px-10 py-2 overflow-hidden text-lg font-medium text-gray-600 border-2 border-green-600 rounded-full outlineBtn dark:border-gray-700 hover:text-white group hover:bg-gray-50">
                                     <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 dark:bg-gray-700 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                                     <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease"></span>

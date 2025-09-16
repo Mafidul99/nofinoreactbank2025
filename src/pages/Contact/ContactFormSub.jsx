@@ -60,16 +60,16 @@ export const ContactFormSub = () => {
   return (
     <>
       <div className="relative flex justify-center min-h-screen items-top sm:items-center sm:pt-0">
-        <div className="max-w-[1200px] w-full mx-auto sm:px-6 lg:px-8">
-          <div className="mt-8 overflow-hidden">
-            <div className="grid grid-cols-1 grid_row md:grid-cols-2">
-              <div className="p-6 mr-2 bg-[#fff] dark:bg-gray-800 shadow-md sm:rounded-lg">
+        <div className="max-w-[1200px] w-full mx-auto px-4 py-3">
+          <div className="mt-5 overflow-hidden">
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-1 sm:grid-cols-1">
+              <div className="p-3 bg-[#fff] dark:bg-gray-800 shadow-md rounded-lg">
                 <GoogleMapIndex />
               </div>
 
               <div className="border-[1.5px] shadow-md border-solid border-gray-500 rounded-lg dark:border-[#D6D6D6] bg-[#fff] dark:bg-gray-700" >
                 <form method="POST" className="flex flex-col justify-center p-6" ref={contForm} onSubmit={contSendEmail}>
-                  <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                  <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 ">
                     <div>
                       <label htmlFor="name" className="block dark:text-[#D6D6D6] text-[14px] font-roboto font-bold leading-6 text-gray-900">Your Full Name</label>
                       <div className="mt-2.5">

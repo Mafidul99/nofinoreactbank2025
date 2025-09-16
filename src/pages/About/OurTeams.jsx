@@ -20,8 +20,8 @@ const OurTeams = () => {
         <>
             <section className="mt-[20px]">
                 <div className="py-8 px-4 mx-auto max-w-[1200px] text-center lg:py-16 lg:px-6">
-                    <div className=' animate-slide-fade items-center'>
-                        <div className="grid gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <div className='animate-slide-fade items-center'>
+                        <div className="grid gap-4 grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
                             {OurTeamsLink.map((ourTeamLinks) => {
                                 const { id, name, designation, images } = ourTeamLinks;
                                 return (

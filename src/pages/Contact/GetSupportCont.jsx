@@ -68,12 +68,12 @@ const GetSupportCont = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center justify-center w-full  mt-[40px]'>
-                    <div className='flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4'>
-                        <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className='flex items-center justify-center w-full mt-[40px]'>
+                    <div className='flex justify-between items-center mx-auto max-w-[1200px] w-full px-4 py-3'>
+                        <div className="w-[100%] grid gap-3 grid-cols-3  md:grid-cols-1 lg:gap-2 lg:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 p-2">
                             {supportLinks.map((supportLink, index) => {
                                 return (
-                                    <div class="max-w-sm p-3 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-xl dark:border-gray-700">
+                                    <div class="p-3 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-xl dark:border-gray-700" key={index}>
                                         <div className="flex w-full items-center justify-center justify-items-center py-2 text-center">
                                             <span className='text-[50px] w-full text-green-500 items-center text-center justify-items-center'>
                                                 {supportLink.icon}
@@ -82,16 +82,13 @@ const GetSupportCont = () => {
                                         <h5 class="mb-2 text-[24px] font-roboto font-bold tracking-tight text-gray-900 dark:text-white text-center">
                                             {supportLink.title}
                                         </h5>
-
                                         <hr className='py-1 w-full border-b-2 border-gray-400 border-dashed border-t-transparent bg-transparent mb-1' />
-
                                         <div className="flex text-red-600 dark:text-[#D6D6D6] text-[19px] py-2 font-[500] font-roboto">
                                             <p>{supportLink.name}</p>
                                             <span className='text-[16px] font-[500] font-roboto'>
                                                 <p>{supportLink.smname}</p>
                                             </span>
                                         </div>
-
                                         <div className='text-[17px] font-roboto  flex w-full items-center'>
                                             <p className='py-1 flex items-center '>
                                                 <span className='items-center text-[17px] text-green-500'>
@@ -101,7 +98,6 @@ const GetSupportCont = () => {
                                                     {supportLink.email.nam}
                                                 </Link>
                                             </p>
-
                                         </div>
                                         <div className='text-[17px] font-roboto flex w-full items-center'>
                                             <p className='py-1 flex items-center'>

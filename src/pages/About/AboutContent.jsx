@@ -5,9 +5,9 @@ import { HiArrowLongRight } from "react-icons/hi2";
 const AboutContent = () => {
     return (
         <>
-            <div className='flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4'>
-                <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div className="relative">
+            <div className='flex mx-auto max-w-[1200px] w-full px-4 items-center'>
+                <div className="w-[100%] grid gap-3 grid-cols-2 md:grid-cols-1 md:p-5">
+                    <div className="relative md:items-center md:justify-center md:p-4">
                         <div className="max-w-[100%] relative z-[2] px-[30px] py-[30px] rounded-md">
                             <img src="/assets/images/about/ab1.png" alt="thumb" className='rounded-md' />
                         </div>

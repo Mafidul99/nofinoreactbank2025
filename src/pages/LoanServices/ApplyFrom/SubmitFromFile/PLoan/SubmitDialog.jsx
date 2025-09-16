@@ -134,7 +134,7 @@ const SubmitDialog = () => {
           Personal Loan Application Form</h3>
         <p className='text-red-500 text-center text-[18px] font-roboto font-[400]'>(Star Mark is Mandatory)</p>
         <h2 className='text-[20px] font-[700] dark:text-[#D6D6D6] py-3 underline'>Loan Details</h2>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 md:grid-cols-1 ">
           <div className="flex flex-col">
             <label htmlFor="loan_amount" className="items-center justify-center mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Loan Amount</span>
@@ -182,7 +182,7 @@ const SubmitDialog = () => {
           </div>
         </div>
         <h2 className='text-[20px] font-[700] dark:text-[#D6D6D6] py-3 underline mt-3'>Personal Details</h2>
-        <div className="grid grid-cols-3 gap-4 mt-2">
+        <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
           <div className="flex flex-col">
             <label htmlFor="user_name" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Your Name</span>
@@ -199,7 +199,7 @@ const SubmitDialog = () => {
             <input type="text"  name="father_name" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
               placeholder='Enter Father Name' required />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:col-span-2 md:col-span-1">
             <label htmlFor="mother_name" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Mother Name</span>
               <span className='text-red-500 text-[18px]'> * </span>
@@ -208,7 +208,7 @@ const SubmitDialog = () => {
               placeholder='Enter Mother Name' required />
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-4 mt-2">
+        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
           <div className="flex flex-col">
             <label htmlFor="email" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Email Address</span>
@@ -315,7 +315,7 @@ const SubmitDialog = () => {
               <option value="phd">PhD</option>
             </select>
           </div>
-          <div className="flex flex-col col-span-2">
+          <div className="flex flex-col col-span-2 md:col-span-1">
             <label htmlFor="spouse_name" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Spose Name</span>
               <span className='text-red-500 text-[18px]'> * </span>
@@ -325,7 +325,7 @@ const SubmitDialog = () => {
           </div>
         </div>
         <h2 className='text-[20px] font-[700] dark:text-[#D6D6D6] py-3 underline mt-3'>Account Details</h2>
-        <div className="grid grid-cols-3 gap-4 mt-2">
+        <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
           <div className="flex flex-col">
             <label htmlFor="account_number" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Account Number</span>
@@ -342,7 +342,7 @@ const SubmitDialog = () => {
             <input type="text" name="ifsc" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
               placeholder="Enter IFSC Code" required />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:col-span-2 md:col-span-1">
             <label htmlFor="branch" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Branch Name</span>
               <span className='text-red-500 text-[18px]'> * </span>
@@ -352,8 +352,8 @@ const SubmitDialog = () => {
           </div>
         </div>
         <h2 className='text-[20px] font-[700] dark:text-[#D6D6D6] py-3 underline mt-3'>Address Details</h2>
-        <div className="grid grid-cols-4 gap-4 mt-2">
-          <div className="flex flex-col col-span-2">
+        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
+          <div className="flex flex-col col-span-2 md:col-span-1">
             <label htmlFor="address" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>House No/Name</span>
               <span className='text-red-500 text-[18px]'> * </span>
@@ -361,7 +361,7 @@ const SubmitDialog = () => {
             <input type="text"  name="address" className="border border-gray-300 p-2 text-[15px] rounded dark:bg-gray-600 dark:text-[#fff]"
               placeholder="Enter Address" required />
           </div>
-          <div className="flex flex-col col-span-2">
+          <div className="flex flex-col col-span-2 md:col-span-1">
             <label htmlFor="street" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Street</span>
               <span className='text-red-500 text-[18px]'> * </span>
@@ -409,7 +409,7 @@ const SubmitDialog = () => {
           </div>
         </div>
         <h2 className='text-[20px] font-[700] dark:text-[#D6D6D6] py-3 underline mt-3'>Documents Upload</h2>
-        <div className="grid grid-cols-3 gap-4 mt-2">
+        <div className="grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-1 mt-2">
           <div className="flex flex-col">
             <label htmlFor="attachmentsPan" className="mb-2">
               <span className='text-[15px] font-[500] dark:text-[#D6D6D6]'>Pan Card</span>

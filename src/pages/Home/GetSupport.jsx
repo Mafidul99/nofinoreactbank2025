@@ -68,12 +68,12 @@ const GetSupport = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center justify-center w-full  mt-[40px]'>
+                <div className='flex items-center justify-center w-full mt-[40px]'>
                     <div className='flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4'>
-                        <div className="w-[100%] grid gap-4 grid-cols-3 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1">
+                        <div className="w-[100%] grid gap-3 grid-cols-3  md:grid-cols-1 lg:gap-2 lg:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 p-2">
                             {supportLinks.map((supportLink, index) => {
                                 return (
-                                    <div class="max-w-sm p-6 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700" key={index}>
+                                    <div class="p-3 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700" key={index}>
                                         <div className="flex items-center justify-center w-full py-3 text-center justify-items-center">
                                             <span className='text-[50px] w-full text-green-500 items-center text-center justify-items-center'>
                                                 {supportLink.icon}
