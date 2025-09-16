@@ -29,7 +29,7 @@ const OurService = () => {
                             return (
                             <div className='items-center animate-slide-fade' key={id}>
                                 <div className="transition duration-300 hover:scale-105">
-                                    <div class="max-w-sm p-6 bg-slate-50 dark:bg-gray-700 border-gray-200 dark:border-0 rounded-lg shadow-md dark:border-gray-700 ">
+                                    <div class="p-6 bg-slate-50 dark:bg-gray-700 border-gray-200 dark:border-0 rounded-lg shadow-md dark:border-gray-700 ">
                                         <div className="bg-cover w-[100%] items-center justify-center bg-no-repeat">
                                             <img src={image} alt="" className='w-[100%] h-auto rounded-md' />                                               
                                         </div>                                        
