@@ -70,11 +70,11 @@ const GetSupport = () => {
 
                 <div className='flex items-center justify-center w-full  mt-[40px]'>
                     <div className='flex flex-wrap justify-between items-center mx-auto max-w-[1200px] w-full px-4'>
-                        <div className="w-[100%] grid grid_row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <div className="w-[100%] grid gap-4 grid-cols-3 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1">
                             {supportLinks.map((supportLink, index) => {
                                 return (
                                     <div class="max-w-sm p-6 bg-slate-50  dark:bg-gray-700 border-gray-200 rounded-lg shadow-md dark:border-gray-700" key={index}>
-                                        <div className="flex w-full items-center justify-center justify-items-center py-3 text-center">
+                                        <div className="flex items-center justify-center w-full py-3 text-center justify-items-center">
                                             <span className='text-[50px] w-full text-green-500 items-center text-center justify-items-center'>
                                                 {supportLink.icon}
                                             </span>
@@ -83,7 +83,7 @@ const GetSupport = () => {
                                             {supportLink.title}
                                         </h5>
 
-                                        <hr className='py-2 w-full border-b-2 border-gray-400 border-dashed border-t-transparent bg-transparent mb-2' />
+                                        <hr className='w-full py-2 mb-2 bg-transparent border-b-2 border-gray-400 border-dashed border-t-transparent' />
 
                                         <div className="flex text-red-600 dark:text-[#D6D6D6] text-[19px] py-2 font-[500] font-roboto">
                                             <p>{supportLink.name}</p>
@@ -93,7 +93,7 @@ const GetSupport = () => {
                                         </div>
 
                                         <div className='text-[17px] font-roboto  flex w-full items-center'>
-                                            <p className='py-1 flex items-center '>
+                                            <p className='flex items-center py-1 '>
                                                 <span className='items-center text-[17px] text-green-500'>
                                                     {supportLink.email.icons}
                                                 </span>
@@ -104,7 +104,7 @@ const GetSupport = () => {
 
                                         </div>
                                         <div className='text-[17px] font-roboto flex w-full items-center'>
-                                            <p className='py-1 flex items-center'>
+                                            <p className='flex items-center py-1'>
                                                 <span className='items-center text-[17px] text-green-500'>
                                                     {supportLink.phone.icons}
                                                 </span>

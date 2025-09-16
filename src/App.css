@@ -10,8 +10,11 @@
     display: none;
     
 }
+.mobile-menu{
+  display: none;
+}
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1023px) {
   .menu-web{
     display: none;
 
@@ -21,8 +24,13 @@
     display: inline;
 
 }
+.mobile-menu{
+    display: flex;
 
-.mobile-menu{    
+}
+
+
+.mobile-menu{  
     position: absolute;
     width: 95%;
     top: 70px;
@@ -39,7 +47,7 @@
 
 }
 
-@media screen and (max-width: 876px){
+@media screen and (max-width: 767px){
   .sliderBtn{
    display: none;
   }

@@ -104,14 +104,12 @@ export const MobileHeader = () => {
 
                 <ul className="font-[700] text-[16px] font-roboto items-start flex flex-col p-4 capitalize">
                     <li>
-                        <Link to="/" className="block px-3 py-2 text-gray-700
-                                hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
+                        <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" className="block px-3 py-2 text-gray-700
-                                hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
+                        <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
                             About Us
                         </Link>
                     </li>
@@ -138,14 +136,12 @@ export const MobileHeader = () => {
                         )}
                     </li>
                     <li>
-                        <Link to="/accounts" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent
-                                    hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
+                        <Link to="/accounts" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
                             Accounts
                         </Link>
                     </li>
                     <li>
-                        <Link to="/cash-managment-product" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent
-                                    hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
+                        <Link to="/cash-managment-product" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
                             Cash Management Product
                         </Link>
                     </li>
@@ -197,8 +193,7 @@ export const MobileHeader = () => {
                     </li>
 
                     <li>
-                        <Link to="/contact" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent
-                                            hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
+                        <Link to="/contact" className="block px-3 py-2 text-gray-700 rounded-sm lg:bg-transparent hover:text-green-700 md:p-0 dark:text-white dark:hover:text-green-400">
                             Contact Us
                         </Link>
                     </li>
